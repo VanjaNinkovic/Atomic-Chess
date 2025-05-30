@@ -1,7 +1,5 @@
 # portfolio-project
 
-**Remember that this project cannot be submitted late.**
-
 Write a class named **ChessVar** for playing an abstract board game that is a variant of chess--atomic chess. The following explanation of the rules assumes some familiarity with the rules of chess - specifically how the pieces move and capture. If you have any questions about those rules, please don't hesitate to ask.
 
 The starting position for the game is the normal starting position for standard chess. You will need to keep track of which player's turn it is. As in standard chess, white moves first. Pieces move and capture the same as in standard chess, except that **there is no check or checkmate, and there is no castling, en passant, or pawn promotion**. As in standard chess, each pawn should be able to move two spaces forward on its first move (but not on subsequent moves). 
@@ -35,4 +33,3 @@ print(game.make_move('c1', 'g5'))  # output True
 game.print_board()
 print(game.get_game_state())  # output UNFINISHED
 ```
-The file must be named: ChessVar.py
