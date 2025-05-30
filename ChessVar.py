@@ -943,7 +943,7 @@ class Pawn:
 #     print(game.make_move('c1', 'g5'))  # output True
 #     game.print_board()
 #     print(game.get_game_state())  # output UNFINISHED
-#
-#
+
+
 # if __name__=="__main__":
 #     main()
